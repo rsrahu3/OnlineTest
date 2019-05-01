@@ -1,0 +1,12 @@
+.prev,.submit{
+	display:none;
+	
+}
+.next{
+	display:block;
+	margin-left:90%;
+}
+.submit{
+	margin-left:90%;
+}
+
