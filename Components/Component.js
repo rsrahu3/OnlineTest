@@ -1,5 +1,4 @@
 function Component(){
-
 }
 
 Component.prototype.createParentDiv = function(id){
