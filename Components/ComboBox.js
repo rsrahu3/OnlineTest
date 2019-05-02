@@ -32,8 +32,8 @@ ComboBox.prototype.createComboBox = function(parentDiv){
 	  selectBox.appendChild(option);
 	}
 	parentDiv.appendChild(selectBox);
-	
 }
+
 ComboBox.prototype.getComponent = function(){
 	return this.domComponent;
 }
