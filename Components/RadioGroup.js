@@ -18,6 +18,7 @@ RadioGroup.prototype.createRadioGroup = function(parentDiv){
 	var temp = this;
 	var radioGroup = document.createElement("div");
 	radioGroup.id = "radio-group-"+this.data.id;
+	radioGroup.setAttribute("class" , "radio-group");
 	var options = this.data.options;
 	for(var i=0;i<options.length;i++){
 		var label = document.createElement("label");
